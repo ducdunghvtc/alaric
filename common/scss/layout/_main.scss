@@ -1,0 +1,22 @@
+// contents inner
+// ============================================
+.main {
+    position: relative;
+    margin-top: 50px;
+}
+.section {
+    height: calc(100vh - 50px);
+    scroll-snap-align: start;
+}
+.intro-image {
+    width: 164px;
+    @include lg {
+        width: 300px;
+    }
+}
+.intro-image2 {
+    width: 200px;
+    @include lg {
+        width: 700px;
+    }
+}

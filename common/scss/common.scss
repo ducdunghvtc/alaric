@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "UTMBebas";
+    src: url(../font/UTMBebas.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+// foundation
+@import 'foundation/reset';
+@import 'foundation/variables';
+@import 'foundation/mixin';
+@import 'foundation/base';
+@import 'foundation/font';
+// object
+// -utility
+@import 'object/utility/color';
+@import 'object/utility/width';
+@import 'object/utility/margin';
+@import 'object/utility/padding';
+@import 'object/utility/display';
+@import 'object/utility/flex';
+@import 'object/utility/border';
